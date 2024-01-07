@@ -29,7 +29,13 @@ export const updateUser = async (req, res, next) => {
             { new: true }
         );
 
-        const { password, ...rest } = updatedUser._doc;
+        if (!updatedUser) {
+            // Handle case where user with the given ID is not found
+            return next(errorHandler(404, 'User not found'));
+        }
+
+        // Omit password from the response
+        const { password, ...rest } = updatedUser.toObject(); // Use toObject to get a plain JavaScript object
 
         res.status(200).json(rest);
     } catch (error) {
