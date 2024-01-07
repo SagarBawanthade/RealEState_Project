@@ -41,7 +41,9 @@ function Header() {
                 alt="User Profile Image"
               />
             ) : (
-              <li className=" text-slate-700 hover:underline">Sign in</li>
+              <li className=" text-slate-700 hover:underline text-lg m-3">
+                Sign in
+              </li>
             )}
           </Link>
         </ul>
