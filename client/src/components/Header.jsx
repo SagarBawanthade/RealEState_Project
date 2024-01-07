@@ -9,8 +9,8 @@ function Header() {
     <header className="bg-slate-400 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-5">
         <Link to="/">
-          <h1 className="font-bold text-sm sm:text-2xl flex flex-wrap">
-            <span className="text-slate-700">SB</span>
+          <h1 className="font-semibold text-sm sm:text-2xl flex flex-wrap">
+            <span className="text-slate-700">MarketInLab</span>
             <span className="text-slate-1000">Estate</span>
           </h1>
         </Link>
