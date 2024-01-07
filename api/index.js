@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRouter from "./routes/user.route.js";
 import authRouter from "./routes/auth.route.js";
-import cors from "cors";
+
 import cookieParser from "cookie-parser";
 import listingRouter from './routes/listing.route.js';
 
@@ -25,9 +25,7 @@ app.listen(3000, () => {
 });
 
 
-//routes
-// Enable CORS for all routes
-app.use(cors());
+
 app.use(cookieParser());
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
