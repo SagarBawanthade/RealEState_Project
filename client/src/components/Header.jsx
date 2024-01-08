@@ -28,9 +28,9 @@ function Header() {
     <header className="bg-slate-400 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-5">
         <Link to="/">
-          <h1 className="font-semibold text-sm sm:text-2xl flex flex-wrap">
-            <span className="text-slate-700">MarketInLab</span>
-            <span className="text-slate-1000">Estate</span>
+          <h1 className="font-bold text-sm sm:text-2xl flex flex-wrap">
+            <span className="text-slate-700">S.B</span>
+            <span className="text-slate-1000">RealEstate</span>
           </h1>
         </Link>
         <form
@@ -50,12 +50,12 @@ function Header() {
         </form>
         <ul className="flex gap-4 items-center">
           <Link to="/">
-            <li className="hidden sm:inline text-slate-700 hover:underline text-lg m-3">
+            <li className=" font-semibold hidden sm:inline text-slate-700 hover:underline text-lg m-3">
               Home
             </li>
           </Link>
           <Link to="/about">
-            <li className="hidden sm:inline text-slate-700 hover:underline text-lg m-3">
+            <li className=" font-semibold hidden sm:inline text-slate-700 hover:underline text-lg m-3">
               About
             </li>
           </Link>
@@ -67,7 +67,7 @@ function Header() {
                 alt="User Profile Image"
               />
             ) : (
-              <li className=" text-slate-700 hover:underline text-lg m-3">
+              <li className="font-semibold text-slate-700 hover:underline text-lg m-3">
                 Sign in
               </li>
             )}

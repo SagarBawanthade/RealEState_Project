@@ -1,10 +1,14 @@
 export default function About() {
   return (
     <div className="py-20 px-4 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4 text-slate-800">
-        About MarketinLab real estate agency that specializes in helping clients
-        buy, sell, and rent properties in the most desirable neighborhoods.
+      <h1 className="text-3xl font-semibold mb-4 text-slate-800 text-center my-5">
+        About S.B RealEstate Agency
       </h1>
+      <p>
+        This Agency specializes in helping clients buy, sell, and rent
+        properties in the most desirable neighborhoods.
+      </p>
+      <br />
 
       <p>
         Our team of experienced agents is dedicated to providing exceptional
