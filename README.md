@@ -4,6 +4,7 @@ Welcome to the S.B.RealEstate website, a platform for managing real estate prope
 
 ## Technologies Used
 
+
 - **MERN Stack:**
   - MongoDB (Database)
   - Express.js (Backend)
